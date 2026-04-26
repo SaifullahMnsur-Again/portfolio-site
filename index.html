@@ -10,7 +10,7 @@
         :root { --glass: rgba(15, 23, 42, 0.8); --border: rgba(255, 255, 255, 0.1); }
         body { background-color: #020617; color: #cbd5e1; font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
         .mono { font-family: 'Fira Code', monospace; }
-        .glass-card { background: var(--glass); backdrop-filter: blur(16px); border: 1px solid var(--border); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .glass-card { background: var(--glass); backdrop-filter: blur(16px); border: 1px solid var(--border); transition: all 0.4s ease; }
         .glass-card:hover { border-color: #38bdf8; transform: translateY(-6px); box-shadow: 0 20px 40px -20px rgba(56, 189, 248, 0.3); }
         .grad-text { background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .nav-blur { backdrop-filter: blur(12px); background: rgba(2, 6, 23, 0.8); border-bottom: 1px solid rgba(255,255,255,0.05); }
@@ -34,37 +34,37 @@
         <div class="absolute top-40 -left-20 w-96 h-96 bg-sky-500/10 blur-[120px] rounded-full"></div>
         <div class="max-w-6xl mx-auto relative">
             <div class="inline-block px-4 py-1 rounded-full glass-card text-[10px] font-bold text-sky-400 mb-8 uppercase tracking-widest">
-                Engineer & Research Author
+                Software Engineer & Researcher
             </div>
             <h1 class="text-6xl md:text-8xl font-extrabold text-white mb-6 tracking-tight">
                 Sayfullah Monsur <br><span class="grad-text">Sujan Sarkar.</span>
             </h1>
             <p class="text-xl md:text-2xl text-slate-400 mb-10 max-w-3xl leading-relaxed">
-                B.Sc. Engineering Candidate in <span class="text-white">Information and Communication Engineering</span> at the 
-                <span class="text-white font-semibold">University of Rajshahi</span>. 
-                Merging competitive programming with <span class="text-indigo-400">Deep Learning</span> research[cite: 7, 8].
+                B.Sc. in <span class="text-white">Information and Communication Engineering</span> at the 
+                <span class="text-white">University of Rajshahi, Bangladesh</span>. 
+                Expected June 2026.
             </p>
             <div class="flex flex-wrap gap-4 mb-16">
-                <a href="mailto:saifullahmnsur@gmail.com" class="px-8 py-4 rounded-xl bg-white text-black font-bold hover:bg-sky-400 transition shadow-lg">Email Me [cite: 2]</a>
-                <a href="https://codeforces.com/profile/SaifullahMnsur" target="_blank" class="px-8 py-4 rounded-xl glass-card font-bold hover:border-sky-400 transition">Codeforces Expert (1606) [cite: 9]</a>
+                <a href="mailto:saifullahmnsur@gmail.com" class="px-8 py-4 rounded-xl bg-white text-black font-bold hover:bg-sky-400 transition shadow-lg shadow-white/5">Email Me</a>
+                <a href="https://codeforces.com/profile/SaifullahMnsur" target="_blank" class="px-8 py-4 rounded-xl glass-card font-bold hover:border-sky-400 transition">Codeforces Expert (1606)</a>
             </div>
             
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                <div class="glass-card p-6 rounded-2xl border-l-4 border-sky-500">
+                <div class="glass-card p-6 rounded-2xl border-l-4 border-l-sky-500">
                     <div class="text-3xl font-bold text-white mb-1">1000+</div>
-                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">Solved Problems [cite: 10]</div>
+                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">Solved Problems</div>
                 </div>
-                <div class="glass-card p-6 rounded-2xl border-l-4 border-indigo-500">
+                <div class="glass-card p-6 rounded-2xl border-l-4 border-l-indigo-500 text-indigo-400">
                     <div class="text-3xl font-bold text-white mb-1">77th</div>
-                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">ICPC Dhaka Onsite [cite: 12]</div>
+                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">ICPC Dhaka Onsite</div>
                 </div>
-                <div class="glass-card p-6 rounded-2xl border-l-4 border-emerald-500 text-emerald-400">
+                <div class="glass-card p-6 rounded-2xl border-l-4 border-l-emerald-500 text-emerald-400">
                     <div class="text-3xl font-bold text-white mb-1">19th</div>
-                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">CUET IUPC 2025 [cite: 13]</div>
+                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">CUET IUPC 2025</div>
                 </div>
-                <div class="glass-card p-6 rounded-2xl border-l-4 border-amber-500">
+                <div class="glass-card p-6 rounded-2xl border-l-4 border-l-amber-500 text-amber-400">
                     <div class="text-3xl font-bold text-white mb-1">63rd</div>
-                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">BUET IUPC 2026 [cite: 13]</div>
+                    <div class="text-[10px] uppercase text-slate-500 tracking-widest">BUET IUPC 2026</div>
                 </div>
             </div>
         </div>
@@ -72,23 +72,23 @@
 
     <section id="expertise" class="py-32 px-6 bg-white/[0.01]">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-16 uppercase tracking-tighter">Technical Expertise [cite: 4]</h2>
+            <h2 class="text-3xl font-bold text-white mb-16 uppercase tracking-tighter">Technical Expertise</h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="glass-card p-8 rounded-3xl">
-                    <h4 class="text-sky-400 font-bold mb-4 uppercase text-[10px] tracking-widest">Languages [cite: 5]</h4>
-                    <p class="text-sm italic">C++, Python, C#, Java, SQL, JavaScript</p>
+                    <h4 class="text-sky-400 font-bold mb-6 text-sm uppercase tracking-widest">Languages</h4>
+                    <p class="text-sm italic text-slate-300 leading-relaxed">C++, Python, C#, Java, SQL, JavaScript</p>
                 </div>
                 <div class="glass-card p-8 rounded-3xl">
-                    <h4 class="text-indigo-400 font-bold mb-4 uppercase text-[10px] tracking-widest">Frameworks [cite: 6]</h4>
-                    <p class="text-sm italic">Django, Flask, PostgreSQL, Git, Linux, Unity</p>
+                    <h4 class="text-indigo-400 font-bold mb-6 text-sm uppercase tracking-widest">Frameworks</h4>
+                    <p class="text-sm italic text-slate-300 leading-relaxed">Django, Django REST, Flask, PostgreSQL, Redis, Unity</p>
                 </div>
                 <div class="glass-card p-8 rounded-3xl">
-                    <h4 class="text-emerald-400 font-bold mb-4 uppercase text-[10px] tracking-widest">Core CS [cite: 6]</h4>
-                    <p class="text-sm italic">DSA, OOP, SOLID Principles, Complexity Analysis</p>
+                    <h4 class="text-emerald-400 font-bold mb-6 text-sm uppercase tracking-widest">AI & Research</h4>
+                    <p class="text-sm italic text-slate-300 leading-relaxed">Deep Learning, CNN Architectures, Computer Vision, Image Processing</p>
                 </div>
                 <div class="glass-card p-8 rounded-3xl">
-                    <h4 class="text-amber-400 font-bold mb-4 uppercase text-[10px] tracking-widest">Al/Research [cite: 7]</h4>
-                    <p class="text-sm italic">CNNs, Computer Vision, Deep Learning, Image Processing</p>
+                    <h4 class="text-amber-400 font-bold mb-6 text-sm uppercase tracking-widest">Problem Solving</h4>
+                    <p class="text-sm italic text-slate-300 leading-relaxed">DSA, OOP, Complexity Analysis, SOLID Principles, Google App Script</p>
                 </div>
             </div>
         </div>
@@ -96,46 +96,54 @@
 
     <section id="projects" class="py-32 px-6">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bold text-white mb-16">Selected <span class="text-sky-500">Works. [cite: 14]</span></h2>
+            <h2 class="text-4xl font-bold text-white mb-16">Engineering <span class="text-sky-500">Solutions.</span></h2>
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="glass-card p-10 rounded-[2.5rem] border-t-4 border-t-emerald-500">
-                    <h3 class="text-2xl font-bold text-white mb-2">ShofolKrishok</h3>
-                    <p class="text-sky-500 text-xs mb-4 uppercase tracking-widest font-bold">AI Agricultural Assistant [cite: 21]</p>
+                    <h3 class="text-2xl font-bold text-white mb-2 leading-tight">ShofolKrishok</h3>
+                    <p class="text-sky-500 text-xs mb-4 uppercase tracking-widest font-bold underline decoration-sky-500/30">AI-Driven Agricultural Assistant</p>
                     <p class="text-slate-400 text-sm mb-8 leading-relaxed">
-                        Subscription-based SaaS featuring CNN-based crop disease detection, Gemini API integration, and secure marketplace features[cite: 21, 22].
+                        Subscription-based SaaS featuring CNN-based crop disease detection, Gemini API integration, and SSLCommerz payment systems.
                     </p>
-                    <div class="flex gap-3 text-[9px] font-bold text-emerald-500/80">
-                        <span>DJANGO</span> • <span>REACT</span> • <span>GEMINI API</span> • <span>SSLCOMMERZ</span>
+                    <div class="flex flex-wrap gap-2 text-[9px] font-bold text-emerald-500/80">
+                        <span class="px-2 py-1 bg-emerald-500/10 rounded">DJANGO</span>
+                        <span class="px-2 py-1 bg-emerald-500/10 rounded">REACT</span>
+                        <span class="px-2 py-1 bg-emerald-500/10 rounded">TENSORFLOW</span>
                     </div>
                 </div>
+
                 <div class="glass-card p-10 rounded-[2.5rem] border-t-4 border-t-indigo-500">
-                    <h3 class="text-2xl font-bold text-white mb-2">Campus Connect</h3>
-                    <p class="text-indigo-400 text-xs mb-4 uppercase tracking-widest font-bold">University Services API [cite: 18]</p>
+                    <h3 class="text-2xl font-bold text-white mb-2 leading-tight">Campus Connect</h3>
+                    <p class="text-indigo-400 text-xs mb-4 uppercase tracking-widest font-bold underline decoration-indigo-400/30">University Services API</p>
                     <p class="text-slate-400 text-sm mb-8 leading-relaxed">
-                        REST API with Role-Based Access Control (RBAC). Implemented modules for Blood Bank, Lost & Found, and secure Token Authentication[cite: 18, 19, 20].
+                        Scalable REST API with RBAC and secure Token Authentication. Modules include Blood Bank, Lost & Found, and Data Validation.
                     </p>
-                    <div class="flex gap-3 text-[9px] font-bold text-indigo-500/80">
-                        <span>DJANGO REST</span> • <span>POSTGRESQL</span> • <span>TOKEN AUTH</span>
+                    <div class="flex flex-wrap gap-2 text-[9px] font-bold text-indigo-500/80">
+                        <span class="px-2 py-1 bg-indigo-500/10 rounded">DRF</span>
+                        <span class="px-2 py-1 bg-indigo-500/10 rounded">POSTGRESQL</span>
                     </div>
                 </div>
+
                 <div class="glass-card p-10 rounded-[2.5rem] border-t-4 border-t-amber-500">
-                    <h3 class="text-2xl font-bold text-white mb-2">Avoid Yourself</h3>
-                    <p class="text-amber-500 text-xs mb-4 uppercase tracking-widest font-bold">BUET GameJam Entry [cite: 15]</p>
+                    <h3 class="text-2xl font-bold text-white mb-2 leading-tight">Avoid Yourself</h3>
+                    <p class="text-amber-500 text-xs mb-4 uppercase tracking-widest font-bold underline decoration-amber-500/30">BUET CSE FEST 2023 GameJam</p>
                     <p class="text-slate-400 text-sm mb-8 leading-relaxed">
-                        National Top 11. Engineered game mechanics, state management, and physics using Unity and C#[cite: 15, 16, 17].
+                        National Top 11. Engineered game state management and physics-based systems using C# and OOP principles in Unity.
                     </p>
-                    <div class="flex gap-3 text-[9px] font-bold text-amber-500/80">
-                        <span>C#</span> • <span>UNITY</span> • <span>OOP</span>
+                    <div class="flex flex-wrap gap-2 text-[9px] font-bold text-amber-500/80">
+                        <span class="px-2 py-1 bg-amber-500/10 rounded">C#</span>
+                        <span class="px-2 py-1 bg-amber-500/10 rounded">UNITY ENGINE</span>
                     </div>
                 </div>
+
                 <div class="glass-card p-10 rounded-[2.5rem] border-t-4 border-t-sky-500">
-                    <h3 class="text-2xl font-bold text-white mb-2">ICE-PC</h3>
-                    <p class="text-sky-500 text-xs mb-4 uppercase tracking-widest font-bold">Automated Data Pipeline [cite: 23]</p>
+                    <h3 class="text-2xl font-bold text-white mb-2 leading-tight">ICE-PC</h3>
+                    <p class="text-sky-500 text-xs mb-4 uppercase tracking-widest font-bold underline decoration-sky-500/30">Automated Pipeline</p>
                     <p class="text-slate-400 text-sm mb-8 leading-relaxed">
-                        Full-cycle contest analytics system integrating Codeforces API with real-time React dashboard visualization[cite: 23, 24].
+                        Contest analytics system integrating Codeforces API with real-time React dashboard data sync via Google Apps Script.
                     </p>
-                    <div class="flex gap-3 text-[9px] font-bold text-sky-500/80">
-                        <span>REACT</span> • <span>GOOGLE APPS SCRIPT</span> • <span>APIs</span>
+                    <div class="flex flex-wrap gap-2 text-[9px] font-bold text-sky-500/80">
+                        <span class="px-2 py-1 bg-sky-500/10 rounded">REACT</span>
+                        <span class="px-2 py-1 bg-sky-500/10 rounded">API SYNC</span>
                     </div>
                 </div>
             </div>
@@ -144,59 +152,59 @@
 
     <section id="research" class="py-32 px-6">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-16 text-center uppercase tracking-widest">Research & Leadership</h2>
+            <h2 class="text-3xl font-bold text-white mb-16 text-center uppercase tracking-widest">Research & Recognition</h2>
             
             <div class="space-y-8 mb-20">
-                <a href="https://doi.org/10.1007/978-981-96-4543-5_25" target="_blank" class="block glass-card p-10 rounded-[2rem] border-l-4 border-sky-500 transition">
-                    <div class="flex justify-between mb-4">
-                        <span class="text-[10px] font-bold text-sky-500 uppercase tracking-widest">Springer Publication [cite: 27]</span>
-                        <span class="text-xs text-slate-500">Oct 2024 [cite: 26]</span>
+                <a href="https://doi.org/10.1007/978-981-96-4543-5_25" target="_blank" class="block glass-card p-10 rounded-[2rem] border-l-4 border-sky-500">
+                    <div class="flex justify-between mb-4 items-center">
+                        <span class="text-[10px] font-bold text-sky-500 uppercase tracking-widest">Springer Publication</span>
+                        <span class="text-xs text-slate-500">Oct 2024</span>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-4 italic leading-snug">"Novel Approach to Fruit Caloric Estimation Based on 2D Image-Driven Volume Measurement" [cite: 27]</h3>
-                    <p class="text-xs text-slate-500 mb-2 font-bold uppercase">Best Paper Award (First Author) [cite: 25]</p>
-                    <p class="text-xs text-sky-400 underline decoration-sky-400/30 font-bold">DOI: 10.1007/978-981-96-4543-5_25 [cite: 28]</p>
+                    <h3 class="text-xl font-bold text-white mb-4 italic leading-snug">"Novel Approach to Fruit Caloric Estimation Based on 2D Image-Driven Volume Measurement"</h3>
+                    <p class="text-xs text-slate-500 mb-2 font-bold uppercase tracking-widest">Best Paper Award (First Author)</p>
+                    <p class="text-xs text-sky-400 underline decoration-sky-400/30 font-bold">DOI: 10.1007/978-981-96-4543-5_25</p>
                 </a>
 
-                <a href="https://doi.org/10.1109/ICRPSET64863.2024.10955877" target="_blank" class="block glass-card p-10 rounded-[2rem] border-l-4 border-indigo-500 transition">
-                    <div class="flex justify-between mb-4">
-                        <span class="text-[10px] font-bold text-indigo-500 uppercase tracking-widest">IEEE Xplore [cite: 29, 31]</span>
-                        <span class="text-xs text-slate-500">Dec 2024 [cite: 30]</span>
+                <a href="https://doi.org/10.1109/ICRPSET64863.2024.10955877" target="_blank" class="block glass-card p-10 rounded-[2rem] border-l-4 border-indigo-500">
+                    <div class="flex justify-between mb-4 items-center">
+                        <span class="text-[10px] font-bold text-indigo-500 uppercase tracking-widest">IEEE Xplore</span>
+                        <span class="text-xs text-slate-500">Dec 2024</span>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-4 italic leading-snug">"Multi-Features Based Hybrid Machine Learning Model for Heart Disease Prediction" [cite: 31]</h3>
-                    <p class="text-xs text-slate-500 mb-2 font-bold uppercase">Co-Author [cite: 29]</p>
-                    <p class="text-xs text-indigo-400 underline decoration-indigo-400/30 font-bold">DOI: 10.1109/ICRPSET64863.2024.10955877 [cite: 31]</p>
+                    <h3 class="text-xl font-bold text-white mb-4 italic leading-snug">"Multi-Features Based Hybrid Machine Learning Model for Heart Disease Prediction"</h3>
+                    <p class="text-xs text-slate-500 mb-2 font-bold uppercase tracking-widest">Co-Author</p>
+                    <p class="text-xs text-indigo-400 underline decoration-indigo-400/30 font-bold">DOI: 10.1109/ICRPSET64863.2024.10955877</p>
                 </a>
 
                 <div class="glass-card p-10 rounded-[2rem] border-l-4 border-amber-500">
-                    <div class="flex justify-between mb-4">
-                        <span class="text-[10px] font-bold text-amber-500 uppercase tracking-widest">IIICe 2024 Malaysia [cite: 34]</span>
-                        <span class="text-xs text-slate-500">Aug 2024 [cite: 33]</span>
+                    <div class="flex justify-between mb-4 items-center">
+                        <span class="text-[10px] font-bold text-amber-500 uppercase tracking-widest">IIICe 2024 Malaysia</span>
+                        <span class="text-xs text-slate-500">Aug 2024</span>
                     </div>
-                    <h3 class="text-xl font-bold text-white mb-4 italic leading-snug">"Caloric Estimation of Fruits Using Volume Measurement..." [cite: 34]</h3>
-                    <p class="text-xs text-amber-500 font-bold uppercase mb-2 font-bold tracking-widest">Bronze Medal (First Author) </p>
-                    <p class="text-xs text-slate-500">Awarded by Universiti Tun Hussein Onn Malaysia[cite: 34].</p>
+                    <h3 class="text-xl font-bold text-white mb-4 italic leading-snug">"Caloric Estimation of Fruits Using Volume Measurement..."</h3>
+                    <p class="text-xs text-amber-500 font-bold uppercase mb-2 tracking-widest">Bronze Medal (First Author)</p>
+                    <p class="text-xs text-slate-500 italic">Universiti Tun Hussein Onn Malaysia.</p>
                 </div>
             </div>
 
-            <div class="glass-card p-10 rounded-[2.5rem]">
-                <h3 class="text-2xl font-bold text-white mb-2 leading-tight">Chairperson [cite: 36]</h3>
-                <p class="text-sky-400 font-semibold text-sm mb-6 underline decoration-sky-400/30">IEEE Computer Society Student Branch Chapter, RU [cite: 37]</p>
+            <div class="glass-card p-10 rounded-[2.5rem] border border-sky-500/20">
+                <h3 class="text-2xl font-bold text-white mb-2">Chairperson</h3>
+                <p class="text-sky-400 font-semibold text-sm mb-6 underline decoration-sky-400/30 italic">IEEE Computer Society Student Branch Chapter, University of Rajshahi</p>
                 <ul class="space-y-4 text-sm text-slate-400">
-                    <li class="flex gap-4"><span class="text-sky-500 font-bold tracking-widest">01</span> Mentoring junior students in competitive programming and DSA[cite: 38].</li>
-                    <li class="flex gap-4"><span class="text-sky-500 font-bold tracking-widest">02</span> Leading technical events and seminars in multi-departmental settings[cite: 38, 39].</li>
-                    <li class="flex gap-4"><span class="text-sky-500 font-bold tracking-widest">03</span> Executive Committee Member 2025[cite: 41].</li>
+                    <li class="flex gap-4"><span class="text-sky-500 font-bold">#</span> Led technical events, seminars, and programming mentoring sessions for junior students.</li>
+                    <li class="flex gap-4"><span class="text-sky-500 font-bold">#</span> Executive Committee 2025.</li>
                 </ul>
             </div>
         </div>
     </section>
 
     <footer class="py-20 border-t border-white/5 text-center">
-        <h2 class="text-xl font-bold text-white mb-10 tracking-tight">Sayfullah Monsur Sujan Sarkar [cite: 2]</h2>
-        <div class="flex justify-center gap-10 text-[10px] uppercase tracking-widest font-extrabold">
+        <h2 class="text-xl font-bold text-white mb-10 tracking-tight">Sayfullah Monsur Sujan Sarkar</h2>
+        <div class="flex justify-center gap-10 text-[10px] uppercase tracking-[0.2em] font-extrabold">
             <a href="https://github.com/SaifullahMnsur-Again" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
             <a href="https://www.linkedin.com/in/saifullahmnsur/" target="_blank" class="hover:text-sky-400 transition">LinkedIn</a>
             <a href="https://codeforces.com/profile/SaifullahMnsur" target="_blank" class="hover:text-sky-400 transition">Codeforces</a>
         </div>
+        <p class="mt-12 text-[9px] text-slate-600 uppercase tracking-tighter tracking-[0.4em]">RAJSHAHI, BANGLADESH &bull; 2026</p>
     </footer>
 
 </body>
