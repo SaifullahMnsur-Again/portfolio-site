@@ -3,100 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayfullah Monsur | Engineer & Competitive Programmer</title>
+    <title>Sayfullah Monsur Sujan Sarkar | Software Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     <style>
-        :root { --glass: rgba(30, 41, 59, 0.7); }
         body { background-color: #020617; color: #cbd5e1; font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
         .mono { font-family: 'Fira Code', monospace; }
-        .glass { background: var(--glass); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
         .grad-text { background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .nav-link:hover { color: #38bdf8; text-shadow: 0 0 8px rgba(56, 189, 248, 0.4); }
-        .project-card:hover { border-color: #38bdf8; transform: translateY(-4px); transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .project-card:hover { border-color: #38bdf8; transform: translateY(-4px); }
     </style>
 </head>
 <body class="selection:bg-sky-500/30">
 
     <nav class="fixed top-0 w-full z-50 glass border-b border-white/5">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <span class="mono font-bold tracking-tighter text-sky-400">~/s_sarkar</span>
+            <span class="mono font-bold tracking-tighter text-sky-400">~/sms_sarkar</span>
             <div class="hidden md:flex gap-8 text-[10px] uppercase tracking-[0.2em] font-semibold">
-                <a href="#hero" class="nav-link">Home</a>
-                <a href="#stats" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#research" class="nav-link">Research</a>
+                <a href="#about" class="hover:text-sky-400">About</a>
+                <a href="#skills" class="hover:text-sky-400">Skills</a>
+                <a href="#projects" class="hover:text-sky-400">Projects</a>
+                <a href="#research" class="hover:text-sky-400">Research</a>
             </div>
         </div>
     </nav>
 
-    <section id="hero" class="min-h-screen flex items-center pt-20 px-6">
-        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                <div class="inline-block px-3 py-1 rounded-full glass text-xs font-bold text-sky-400 mb-6">
-                    AVAILABLE FOR FULL-STACK & AI ROLES
-                </div>
-                <h1 class="text-6xl md:text-8xl font-extrabold text-white mb-6 tracking-tight">
-                    Sayfullah <span class="grad-text">Monsur.</span>
-                </h1>
-                <p class="text-xl text-slate-400 leading-relaxed mb-8 max-w-lg">
-                    4th-year Engineering student at <span class="text-white">RU</span>. 
-                    Merging <span class="text-sky-400">Competitive Programming</span> efficiency with 
-                    <span class="text-indigo-400">Deep Learning</span> research.
-                </p>
-                <div class="flex gap-4">
-                    <a href="mailto:saifullahmnsur@gmail.com" class="px-8 py-4 rounded-full bg-white text-black font-bold hover:bg-sky-400 transition-colors">Hire Me</a>
-                    <a href="https://codeforces.com/profile/SaifullahMnsur" target="_blank" class="px-8 py-4 rounded-full glass font-bold hover:border-sky-400 transition">Codeforces Expert</a>
-                </div>
+    <section id="about" class="min-h-screen flex items-center pt-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4 tracking-tight">
+                Sayfullah Monsur <span class="grad-text">Sujan Sarkar</span>
+            </h1>
+            <p class="text-xl text-slate-400 mb-8 max-w-3xl leading-relaxed">
+                B.Sc. in <span class="text-white">Information and Communication Engineering</span> at the 
+                <span class="text-white">University of Rajshahi, Bangladesh</span>. 
+                Expected graduation: <span class="text-sky-400">June 2026</span>.
+            </p>
+            <div class="flex flex-wrap gap-4 mb-12">
+                <a href="mailto:saifullahmnsur@gmail.com" class="px-6 py-3 rounded-lg bg-white text-black font-bold hover:bg-sky-400 transition">Email Me</a>
+                <a href="https://github.com/SaifullahMnsur-Again" target="_blank" class="px-6 py-3 rounded-lg glass font-bold hover:border-sky-400 transition">GitHub</a>
+                <a href="https://codeforces.com/profile/SaifullahMnsur" target="_blank" class="px-6 py-3 rounded-lg glass font-bold hover:border-sky-400 transition">Codeforces Expert (1606)</a>
             </div>
-            <div class="hidden md:block relative">
-                <div class="absolute inset-0 bg-sky-500/20 blur-[120px] rounded-full"></div>
-                <div class="glass p-8 rounded-3xl relative overflow-hidden">
-                    <div class="mono text-xs space-y-2 text-sky-300">
-                        <p>> const dev = "Sayfullah Monsur";</p>
-                        <p>> const role = "IEEE CS Chairperson";</p>
-                        <p>> const rank = "Expert (1606)";</p>
-                        <p>> const focus = ["CNN", "Django", "DSA"];</p>
-                        <p>> solvedCount = 1000+;</p>
-                    </div>
+            
+            <div class="glass p-8 rounded-2xl border-l-4 border-sky-500 max-w-4xl">
+                <h3 class="mono text-sky-400 font-bold mb-4"># Competitive Programming Achievements</h3>
+                <div class="grid md:grid-cols-2 gap-6 text-sm">
+                    <ul class="space-y-2">
+                        <li>• ICPC Dhaka Regional 2025: <span class="text-white">77th Onsite</span></li>
+                        <li>• CUET IUPC 2025: <span class="text-white">19th Position</span></li>
+                        <li>• Metropolitan University IUPC 2025: <span class="text-white">35th Position</span></li>
+                    </ul>
+                    <ul class="space-y-2">
+                        <li>• BUET IUPC 2026: <span class="text-white">63rd Position</span></li>
+                        <li>• Problems Solved: <span class="text-white">1000+ (CF, CSES, LeetCode)</span></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="stats" class="py-24 px-6 bg-white/[0.02]">
+    <section id="skills" class="py-24 px-6 bg-white/[0.02]">
         <div class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
-                <div class="text-center">
-                    <div class="text-4xl font-extrabold text-white mb-2">1606</div>
-                    <div class="text-[10px] uppercase tracking-widest text-slate-500">Max CF Rating</div>
+            <h2 class="text-3xl font-bold text-white mb-12 uppercase tracking-tighter">Technical Arsenal</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass p-6 rounded-xl">
+                    <h4 class="text-sky-400 font-bold mb-4">Languages</h4>
+                    <p class="text-sm leading-7 italic">C#, Python, Java, C++, SQL, JavaScript</p>
                 </div>
-                <div class="text-center">
-                    <div class="text-4xl font-extrabold text-white mb-2">19th</div>
-                    <div class="text-[10px] uppercase tracking-widest text-slate-500">CUET IUPC Rank</div>
+                <div class="glass p-6 rounded-xl">
+                    <h4 class="text-indigo-400 font-bold mb-4">Frameworks & Tools</h4>
+                    <p class="text-sm leading-7 italic">Django, Flask, PostgreSQL, Google App Script, Git, Linux, Unity, Django REST</p>
                 </div>
-                <div class="text-center">
-                    <div class="text-4xl font-extrabold text-white mb-2">1st</div>
-                    <div class="text-[10px] uppercase tracking-widest text-slate-500">Author Springer</div>
-                </div>
-                <div class="text-center">
-                    <div class="text-4xl font-extrabold text-white mb-2">77th</div>
-                    <div class="text-[10px] uppercase tracking-widest text-slate-500">ICPC Onsite</div>
-                </div>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="accent-border">
-                    <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-widest text-sky-400">Stack</h4>
-                    <p class="text-sm leading-relaxed">C++, Python, C#, JavaScript, SQL. Proficient in Django, React, Unity, and PostgreSQL.</p>
-                </div>
-                <div>
-                    <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-widest text-indigo-400">AI & Research</h4>
-                    <p class="text-sm leading-relaxed">Deep Learning, CNN Architectures, Image Processing, and Computer Vision research.</p>
-                </div>
-                <div>
-                    <h4 class="text-white font-bold mb-4 uppercase text-xs tracking-widest text-emerald-400">Leadership</h4>
-                    <p class="text-sm leading-relaxed">Chairperson of IEEE Computer Society (RU). Mentoring 50+ students in competitive programming.</p>
+                <div class="glass p-6 rounded-xl">
+                    <h4 class="text-emerald-400 font-bold mb-4">AI & Problem Solving</h4>
+                    <p class="text-sm leading-7 italic">Deep Learning, CNNs, Image Processing, DSA, OOP, SOLID Principles</p>
                 </div>
             </div>
         </div>
@@ -104,64 +83,98 @@
 
     <section id="projects" class="py-24 px-6">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bold text-white mb-16">Selected <span class="text-sky-500">Works.</span></h2>
+            <h2 class="text-4xl font-bold text-white mb-16">Engineering <span class="text-sky-500">Projects.</span></h2>
             <div class="grid md:grid-cols-2 gap-8">
-                <div class="project-card glass p-10 rounded-3xl flex flex-col justify-between">
-                    <div>
-                        <div class="text-sky-400 mono text-[10px] mb-4">01 // AI AGRICULTURE</div>
-                        <h3 class="text-2xl font-bold text-white mb-4">ShofolKrishok</h3>
-                        <p class="text-slate-400 text-sm mb-8 leading-relaxed">
-                            Full-stack SaaS using custom CNN models and Gemini API for crop disease detection. 
-                            Features SSLCommerz payment integration and a subscription marketplace.
-                        </p>
-                    </div>
-                    <div class="flex gap-4 text-xs font-bold text-slate-500">
-                        <span>DJANGO</span> • <span>REACT</span> • <span>TENSORFLOW</span>
-                    </div>
+                <div class="project-card glass p-10 rounded-3xl border-t-4 border-t-emerald-500">
+                    <h3 class="text-2xl font-bold text-white mb-2">ShofolKrishok</h3>
+                    <p class="text-sky-500 text-xs mb-4">AI-Driven Agricultural Assistant (Ongoing)</p>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Developed subscription-based SaaS with CNN-based crop disease detection. Integrated Gemini API for personalized AI recommendations and SSLCommerz for payments.
+                    </p>
+                    <div class="flex gap-4 text-[10px] font-bold text-slate-500">DJANGO • REACT • GEMINI API • SSLCOMMERZ</div>
                 </div>
-                <div class="project-card glass p-10 rounded-3xl flex flex-col justify-between">
-                    <div>
-                        <div class="text-indigo-400 mono text-[10px] mb-4">02 // SYSTEM DESIGN</div>
-                        <h3 class="text-2xl font-bold text-white mb-4">Campus Connect API</h3>
-                        <p class="text-slate-400 text-sm mb-8 leading-relaxed">
-                            High-performance REST API with Role-Based Access Control (RBAC). 
-                            Engineered for scalability using PostgreSQL and secure Token Authentication.
-                        </p>
-                    </div>
-                    <div class="flex gap-4 text-xs font-bold text-slate-500">
-                        <span>PYTHON</span> • <span>DRF</span> • <span>POSTGRES</span>
-                    </div>
+                <div class="project-card glass p-10 rounded-3xl border-t-4 border-t-indigo-500">
+                    <h3 class="text-2xl font-bold text-white mb-2">Campus Connect</h3>
+                    <p class="text-sky-500 text-xs mb-4">University Services API</p>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Designed scalable REST API with Role-Based Access Control (RBAC). Built modules for Blood Bank, Lost & Found, and Admin approval with strict data validation.
+                    </p>
+                    <div class="flex gap-4 text-[10px] font-bold text-slate-500">DJANGO REST • POSTGRESQL • TOKEN AUTH</div>
+                </div>
+                <div class="project-card glass p-10 rounded-3xl border-t-4 border-t-amber-500">
+                    <h3 class="text-2xl font-bold text-white mb-2">Avoid Yourself</h3>
+                    <p class="text-sky-500 text-xs mb-4">BUET CSE FEST 2023 GameJam</p>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Developed core game mechanics, state management, and physics-based systems. Secured 11th position out of 60+ teams in the online judgment phase.
+                    </p>
+                    <div class="flex gap-4 text-[10px] font-bold text-slate-500">C# • UNITY ENGINE • OOP</div>
+                </div>
+                <div class="project-card glass p-10 rounded-3xl border-t-4 border-t-sky-500">
+                    <h3 class="text-2xl font-bold text-white mb-2">ICE-PC</h3>
+                    <p class="text-sky-500 text-xs mb-4">Automated Contest Analytics Pipeline</p>
+                    <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                        Built full-cycle automation integrating Codeforces API with real-time data sync to a React-based dashboard via Google Apps Script.
+                    </p>
+                    <div class="flex gap-4 text-[10px] font-bold text-slate-500">GOOGLE APPS SCRIPT • REACT • APIs</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="research" class="py-24 px-6 bg-sky-500/[0.01]">
-        <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-3xl font-bold text-white mb-12 uppercase tracking-tighter">Research & Recognition</h2>
-            <div class="space-y-6 text-left">
+    <section id="research" class="py-24 px-6 bg-white/[0.02]">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-white mb-12 uppercase tracking-tighter text-center">Research & Leadership</h2>
+            
+            <div class="space-y-6 mb-16">
                 <a href="https://doi.org/10.1007/978-981-96-4543-5_25" target="_blank" class="block glass p-8 rounded-2xl border-l-4 border-sky-500 hover:bg-white/[0.03] transition">
                     <div class="flex justify-between items-start mb-2">
-                        <h4 class="text-white font-bold text-lg">Fruit Caloric Estimation (Springer)</h4>
-                        <span class="text-sky-500 font-bold text-sm">Best Paper</span>
+                        <h4 class="text-white font-bold text-lg italic">"Novel Approach to Fruit Caloric Estimation..."</h4>
+                        <span class="text-sky-500 font-bold text-xs uppercase">Best Paper Award</span>
                     </div>
-                    <p class="text-sm text-slate-500">Novel 2D image-driven volume measurement approach. First author publication.</p>
+                    <p class="text-xs text-slate-500 mb-4">Published in Springer (Oct 2024). DOI: 10.1007/978-981-96-4543-5_25</p>
+                    <p class="text-sm text-slate-400">First-author publication on 2D image-driven volume measurement for nutritional estimation.</p>
                 </a>
+                
                 <a href="https://doi.org/10.1109/ICRPSET64863.2024.10955877" target="_blank" class="block glass p-8 rounded-2xl border-l-4 border-indigo-500 hover:bg-white/[0.03] transition">
                     <div class="flex justify-between items-start mb-2">
-                        <h4 class="text-white font-bold text-lg">Hybrid ML Heart Disease Prediction</h4>
-                        <span class="text-indigo-500 font-bold text-sm">IEEE Xplore</span>
+                        <h4 class="text-white font-bold text-lg italic">"Multi-Features Based Hybrid Machine Learning Model..."</h4>
+                        <span class="text-indigo-500 font-bold text-xs uppercase">IEEE Xplore</span>
                     </div>
-                    <p class="text-sm text-slate-500">Multi-feature hybrid machine learning model implementation. Co-authored publication.</p>
+                    <p class="text-xs text-slate-500 mb-4">Published in IEEE Xplore (Dec 2024). DOI: 10.1109/ICRPSET64863.2024.10955877</p>
+                    <p class="text-sm text-slate-400">Co-authored study on heart disease prediction models.</p>
                 </a>
+
+                <div class="glass p-8 rounded-2xl border-l-4 border-amber-500">
+                    <div class="flex justify-between items-start mb-2">
+                        <h4 class="text-white font-bold text-lg italic">"Caloric Estimation of Fruits Using Volume Measurement..."</h4>
+                        <span class="text-amber-500 font-bold text-xs uppercase">Bronze Medal (IIICe 2024)</span>
+                    </div>
+                    <p class="text-sm text-slate-400">Awarded at Universiti Tun Hussein Onn Malaysia, Malaysia (Aug 2024).</p>
+                </div>
+            </div>
+
+            <div class="glass p-8 rounded-2xl">
+                <h3 class="text-xl font-bold text-white mb-4">Chairperson - IEEE Computer Society</h3>
+                <p class="text-sm text-sky-400 font-semibold mb-4 underline">University of Rajshahi Student Branch Chapter</p>
+                <ul class="text-sm text-slate-400 space-y-3">
+                    <li>• Led technical events, seminars, and programming mentoring sessions for junior students[cite: 38].</li>
+                    <li>• Demonstrated strong communication and leadership in a multi-departmental setting[cite: 39].</li>
+                    <li>• Executive Committee 2025[cite: 41].</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <footer class="py-12 border-t border-white/5 text-center">
-        <p class="text-[10px] uppercase tracking-[0.4em] text-slate-600">
-            Sayfullah Monsur Sujan Sarkar &copy; 2026 // RAJSHAHI, BANGLADESH
-        </p>
+        <div class="max-w-6xl mx-auto px-6">
+            <p class="text-sm font-bold text-white mb-2">Sayfullah Monsur Sujan Sarkar</p>
+            <p class="text-xs text-slate-500 mb-6 tracking-widest">+880-1711-774217 | saifullahmnsur@gmail.com</p>
+            <div class="flex justify-center gap-8 text-[10px] uppercase tracking-widest font-bold">
+                <a href="https://github.com/SaifullahMnsur-Again" target="_blank" class="hover:text-sky-400 transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/saifullahmnsur/" target="_blank" class="hover:text-sky-400 transition">LinkedIn</a>
+                <a href="https://codeforces.com/profile/SaifullahMnsur" target="_blank" class="hover:text-sky-400 transition">Codeforces</a>
+            </div>
+        </div>
     </footer>
 
 </body>
