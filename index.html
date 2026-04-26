@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfullah Monsur | Software Engineer & CP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #0f172a; color: #e2e8f0; font-family: 'Fira Code', monospace; }
+        .accent-border { border-left: 4px solid #38bdf8; }
+        .card { background: #1e293b; transition: all 0.3s ease; }
+        .card:hover { transform: translateY(-5px); border-color: #38bdf8; box-shadow: 0 10px 20px -10px rgba(56, 189, 248, 0.3); }
+        .glitch-text { color: #38bdf8; text-shadow: 2px 2px #0f172a; }
+    </style>
+</head>
+<body class="p-6 md:p-12 lg:p-24">
+    <div class="max-w-5xl mx-auto">
+        <header class="mb-16">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold glitch-text mb-2">Sayfullah Monsur Sujan Sarkar</h1>
+                    <p class="text-xl text-slate-400">B.Sc. in Information & Communication Engineering</p>
+                    <p class="text-sky-500 font-semibold mt-1">University of Rajshahi, Bangladesh</p>
+                </div>
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-sky-500/10 border border-sky-500/50 text-sky-400 px-4 py-1 rounded-full text-sm font-bold">Codeforces Expert</span>
+                    <span class="bg-amber-500/10 border border-amber-500/50 text-amber-400 px-4 py-1 rounded-full text-sm font-bold">IEEE CS Chairperson</span>
+                </div>
+            </div>
+            
+            <div class="mt-8 flex gap-6 text-sm text-slate-500">
+                <a href="mailto:saifullahmnsur@gmail.com" class="hover:text-sky-400">Email</a>
+                <a href="#" class="hover:text-sky-400">GitHub</a>
+                <a href="#" class="hover:text-sky-400">LinkedIn</a>
+                <a href="#" class="hover:text-sky-400">Codeforces</a>
+            </div>
+        </header>
+
+        <section class="mb-16 accent-border pl-8">
+            <h2 class="text-2xl font-bold mb-4 text-white uppercase tracking-tighter">01. Algorithmic Prowess</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="col-span-2">
+                    <p class="text-slate-400 leading-relaxed mb-4">
+                        Highly active competitive programmer specializing in complex data structures and algorithms. 
+                        Achieved <span class="text-sky-400 font-bold">Expert rank (1600+)</span> on Codeforces.
+                    </p>
+                    <ul class="list-disc list-inside text-slate-400 space-y-1">
+                        <li>Solved 1,000+ problems (CSES, LeetCode, Vjudge)</li>
+                        <li>77th Place - ICPC Dhaka Regional Onsite 2025</li>
+                        <li>11th Place - BUET CSE FEST GameJam</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-800/50 p-6 rounded-lg border border-slate-700 text-center">
+                    <div class="text-4xl font-bold text-sky-400">1000+</div>
+                    <div class="text-xs uppercase text-slate-500 mt-2">Problems Solved</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold mb-8 text-white uppercase tracking-tighter flex items-center">
+                <span class="text-sky-500 mr-4">02.</span> Technical Projects
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="card p-8 rounded-xl border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sky-400 font-bold text-xl mb-3">ShofolKrishok</h3>
+                        <p class="text-sm text-slate-400 mb-4 italic">AI-Driven Agricultural SaaS</p>
+                        <p class="text-slate-500 text-sm mb-6">Implementing custom CNN architectures for crop disease detection. Integrated with Gemini API for real-time agricultural advisory.</p>
+                    </div>
+                    <div class="flex gap-2 text-[10px] uppercase font-bold text-slate-400">
+                        <span>Python</span> • <span>Django</span> • <span>TensorFlow</span>
+                    </div>
+                </div>
+
+                <div class="card p-8 rounded-xl border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sky-400 font-bold text-xl mb-3">UniSync API</h3>
+                        <p class="text-sm text-slate-400 mb-4 italic">Campus Management Backend</p>
+                        <p class="text-slate-500 text-sm mb-6">Hierarchical university services API featuring Role-Based Access Control (RBAC) and complex PostgreSQL relational schemas.</p>
+                    </div>
+                    <div class="flex gap-2 text-[10px] uppercase font-bold text-slate-400">
+                        <span>Node.js</span> • <span>PostgreSQL</span> • <span>Redis</span>
+                    </div>
+                </div>
+
+                <div class="card p-8 rounded-xl border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sky-400 font-bold text-xl mb-3">ICE-PC Analytics</h3>
+                        <p class="text-sm text-slate-400 mb-4 italic">Automation & Visualizer</p>
+                        <p class="text-slate-500 text-sm mb-6">Automated contest analytics pipeline that bridges the Codeforces API with a custom React dashboard for performance tracking.</p>
+                    </div>
+                    <div class="flex gap-2 text-[10px] uppercase font-bold text-slate-400">
+                        <span>React</span> • <span>Express</span> • <span>CF API</span>
+                    </div>
+                </div>
+
+                <div class="card p-8 rounded-xl border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sky-400 font-bold text-xl mb-3">Avoid Yourself</h3>
+                        <p class="text-sm text-slate-400 mb-4 italic">BUET CSE FEST GameJam Entry</p>
+                        <p class="text-slate-500 text-sm mb-6">Top 11 project. A strategic game focusing on logic and pathfinding algorithms developed under a 36-hour sprint.</p>
+                    </div>
+                    <div class="flex gap-2 text-[10px] uppercase font-bold text-slate-400">
+                        <span>Game Logic</span> • <span>Physics</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16 bg-sky-950/20 p-8 rounded-2xl border border-sky-500/20">
+            <h2 class="text-2xl font-bold mb-6 text-white uppercase tracking-tighter">03. Research Publications</h2>
+            <div class="space-y-6">
+                <div class="relative pl-6 border-l border-slate-700">
+                    <span class="absolute -left-1 top-0 w-2 h-2 rounded-full bg-sky-500"></span>
+                    <h4 class="text-white font-bold italic">Novel Approach to Fruit Caloric Estimation...</h4>
+                    <p class="text-xs text-sky-400 mb-2">Published: Springer (Oct 2024)</p>
+                    <p class="text-sm text-slate-500">First-author research focusing on 2D image-driven volume measurement for nutritional estimation.</p>
+                </div>
+                <div class="relative pl-6 border-l border-slate-700">
+                    <span class="absolute -left-1 top-0 w-2 h-2 rounded-full bg-sky-500"></span>
+                    <h4 class="text-white font-bold italic">Hybrid Machine Learning for Heart Disease Prediction</h4>
+                    <p class="text-xs text-sky-400 mb-2">Published: IEEE Xplore (Dec 2024)</p>
+                    <p class="text-sm text-slate-500">Co-authored study comparing performance of ensemble ML models for clinical diagnostics.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center text-slate-600 mt-24 pt-8 border-t border-slate-800">
+            <p class="text-sm">Sayfullah Monsur Sujan Sarkar &copy; 2026</p>
+            <p class="text-[10px] mt-2 uppercase tracking-widest">Built with TailwindCSS • Hosted on Ubuntu Droplet</p>
+        </footer>
+    </div>
+</body>
+</html>
